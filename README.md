@@ -5,6 +5,8 @@ at a time, at random. It takes two inputs: the ASCII art, as a string,
 and an MP3 file. The time it takes to completely reveal the ASCII art is
 directly tied to the duration of the MP3 file.
 
+A demo may be found at https://www.ndhfilms.com/other/logoviz
+
 There are two functions for displaying the ASCII art. By default, it uses
 a "curve" function, which will reveal the art slowly at first, and increase 
 in speed towards the end. This function uses the formula for compund interest
@@ -41,4 +43,6 @@ background (seashell being the official color for Nantucket E-Books)
 the program to be ready to run, and this isn't immediately clear to the user.
 - A way to reset the program. 
 
-
+I imagine a very simple interface. The footer could be hidden,
+and playing/resetting the program would be controlled from the spacebar or 
+Enter key. 
